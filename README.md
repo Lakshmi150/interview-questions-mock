@@ -11,7 +11,8 @@
   - Configure network redundancy and isolation.
   - Set up monitoring and alerting for proactive issue detection.
 - **Define multi cluster architecutre**
-  - 
+  - A multi-cluster architecture refers to a system design such as servers, virtual machines, or containers
+  - Each cluster typically operates independently but may be interconnected to facilitate communication and data sharing
 - **Explain contanirization**
   - Docker is a containerization platform that provides easy way to containerize your applications, which means, using Docker you can build 
      container images, run the images to create containers and also push these containers to container regestries such as DockerHub, Quay.io and so on.
