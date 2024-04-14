@@ -13,8 +13,8 @@ Set up monitoring and alerting for proactive issue detection.
 - **Define multi cluster architecutre**
   - 
 - **Explain contanirization**
-  - Containerization is a method of packaging software applications along with their dependencies into standardized units called containers. 
-    These containers can run consistently across different environments, making it easier to develop, deploy, and manage applications.
+  - Docker is a containerization platform that provides easy way to containerize your applications, which means, using Docker you can build 
+     container images, run the images to create containers and also push these containers to container regestries such as DockerHub, Quay.io and so on.
 - **explain ansible**
   - Ansible is an open-source automation tool used for configuration management, application deployment, and task automation. It simplifies IT 
     operations by allowing users to define infrastructure as code using YAML-based playbooks, which describe desired configurations and tasks. 
