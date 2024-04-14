@@ -2,14 +2,14 @@
 # day-1-Preparation
 - **What are the components of Kubernates?**
 - **How to achive High Availabiity of Cluster**
-  Deploy Kubernetes across multiple nodes.
-Configure a highly available control plane.
-Use a clustered etcd for data storage.
-Ensure node redundancy for application rescheduling.
-Implement load balancing for traffic distribution.
-Deploy applications with multiple replicas.
-Configure network redundancy and isolation.
-Set up monitoring and alerting for proactive issue detection.
+  - Deploy Kubernetes across multiple nodes.
+  - Configure a highly available control plane.
+  - Use a clustered etcd for data storage.
+  - Ensure node redundancy for application rescheduling.
+  - Implement load balancing for traffic distribution.
+  - Deploy applications with multiple replicas.
+  - Configure network redundancy and isolation.
+  - Set up monitoring and alerting for proactive issue detection.
 - **Define multi cluster architecutre**
   - 
 - **Explain contanirization**
