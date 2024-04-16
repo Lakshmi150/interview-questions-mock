@@ -49,3 +49,24 @@
 - **explain head start command**
   - a "head start" command could be a script or container entry point that performs initialization tasks, such as setting up configuration files, 
    loading initial data, or preparing dependencies, before the main application components start.
+- **Explain Azure Infra Structure**
+   - Azure infrastructure consists of data centers, regions, availability zones, resource groups, virtual machines, and networking services, 
+     providing the foundation for deploying and managing cloud-based applications and services.
+- **What Are Docker Containers**
+  - Docker containers are lightweight, portable, and self-sufficient environments that encapsulate software and its dependencies, allowing 
+    applications to run consistently across different computing environments. They package everything needed to run an application, including 
+    code, runtime, system tools, libraries, and settings, into a single container. This enables developers to easily build, ship, and deploy 
+    applications in a predictable and efficient manner, regardless of the underlying infrastructure
+- **What Is the Use of Neo Load Tool and Tosca**
+  - NeoLoad is a load testing tool for assessing application performance under various conditions. Tosca is a software testing tool supporting 
+   functional testing, regression testing, and test automation.
+- **Difference between Ingress and Load Balancer**
+  - Ingress manages external access to Kubernetes services, acting as a traffic controller for incoming requests. Load Balancer distributes 
+    incoming network traffic across multiple servers to ensure high availability and reliability of applications.
+- **What Is Load Balancer**
+  - A load balancer evenly distributes incoming network traffic across multiple servers or computing resources to optimize performance, maximize 
+   availability, and prevent overload on any single server.
+- **Define Cluster IP**
+  - Cluster IP is an internal IP address assigned to a Kubernetes service, enabling communication between different parts of an application 
+    within the Kubernetes cluster. It allows for inter-service communication while abstracting the underlying network details.
+- 
