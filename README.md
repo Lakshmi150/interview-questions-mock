@@ -12,6 +12,27 @@
     configuration for VMs, and facilitating the migration of on-premises applications to Azure, ensuring optimal performance and data protection 
     through Azure Site Recovery and Backup solutions.
 - **What are the components of Kubernates?**
+  - `Master Node Components`:
+    kube-apiserver: Exposes the Kubernetes API. All operations and communications within the cluster are handled through this component.
+    etcd: A distributed key-value store that stores the cluster's state. It's the backing store for all Kubernetes data.
+    kube-scheduler: Assigns newly created pods to nodes based on resource availability and other constraints.
+    kube-controller-manager: Runs controller processes which regulate the state of the cluster, such as nodes, replication controllers, 
+    endpoints.
+   - `Node Components`:
+    kubelet: An agent that runs on each node and ensures containers are running in a pod as expected. It interacts with the Kubernetes API server 
+             and manages containers through container runtimes (e.g., Docker, containerd).
+    kube-proxy: Maintains network rules and performs request forwarding. It runs on each node and manages communication between pods and other 
+                 networked resources.
+   - `Add-ons`:
+  DNS: Provides DNS-based service discovery for Kubernetes services.
+  Ingress Controller: Manages external access to services within a Kubernetes cluster, typically through HTTP and HTTPS.
+  Dashboard: A web-based user interface for managing and monitoring Kubernetes clusters.
+  Storage Plugins: Integrations with various storage solutions, allowing Kubernetes to manage persistent storage volumes.
+    - `Networking`:
+  Pod Networking: Kubernetes uses a flat networking model where every pod can communicate with every other pod in the cluster without NAT. 
+  Various networking solutions such as Calico, Flannel, and Weave provide this functionality.
+  Service Networking: Enables communication between different parts of an application by exposing a stable IP address and DNS name for a set of 
+  pods.
 - **How to achive High Availabiity of Cluster**
   - Deploy Kubernetes across multiple nodes.
   - Configure a highly available control plane.
@@ -49,6 +70,39 @@
 - **explain head start command**
   - a "head start" command could be a script or container entry point that performs initialization tasks, such as setting up configuration files, 
    loading initial data, or preparing dependencies, before the main application components start.
+- **Define Prometheus Monitoring**
+   - Prometheus Monitoring is an open-source monitoring and alerting toolkit focused on gathering metrics from applications and infrastructure 
+     components. It stores collected data in a time-series database, allowing users to query and visualize performance metrics, and set up alerts 
+     based on predefined conditions
+- **Define Virtual Machine**
+  - A virtual machine (VM) is a software-based emulation of a physical computer, capable of running an operating system and applications. It 
+    allows multiple virtual instances to run on a single physical machine, enabling efficient resource utilization and isolation between 
+    different environments or workloads
+- **Explain Virtualization**
+  - Virtualization is the process of creating a virtual representation of something, such as a server, storage device, network, or operating 
+    system. In computing, it typically refers to creating virtual instances of hardware or software environments, allowing multiple virtual 
+    entities to run independently on the same physical hardware. This enables efficient resource utilization, scalability, and isolation between 
+    different computing environments.
+- **Explain SSH Inventory File**
+  - An SSH inventory file is a text file that lists the details of multiple servers or devices accessible via SSH (Secure Shell). It typically 
+   includes information such as the hostname or IP address, port number, username, and optionally authentication keys or passwords. This file is 
+   commonly used in automation scripts or tools to perform batch operations or manage configurations across multiple remote systems via SSH.
+- **Explain Ansible Tower**
+  - Ansible Tower is a web-based user interface and management tool for Ansible, an open-source automation platform. It provides a centralized 
+    platform for automating infrastructure tasks, including deployment, configuration management, and orchestration. With Ansible Tower, users 
+   can define, schedule, and monitor Ansible jobs, manage inventories of hosts, and control access through role-based permissions. It enhances 
+   the scalability, security, and ease of use of Ansible automation across organizations
+- **What are Cloud Related Providers . Explain?**
+- **Explain KPI’s**
+  - KPIs are metrics used to measure the performance and success of specific activities or processes in achieving organizational objectives.
+- **Define Terraform**
+  - Terraform is an open-source Infrastructure as Code (IaC) tool developed by HashiCorp.
+- **How can We Provisioning the Active Directory**
+  - You can provision Active Directory using tools like PowerShell scripts, Active Directory Administrative Center (ADAC), or deployment tools 
+    such as Microsoft Deployment Toolkit (MDT) or Windows Deployment Services (WDS). Additionally, you can automate the provisioning process 
+    using configuration management tools like Ansible or infrastructure as code tools like Terraform
+- **Explain the Working Process of Devops tools**
+  - DevOps tools automate collaboration, code integration, testing, deployment, and monitoring throughout the software development lifecycle.
 - **Explain Azure Infra Structure**
    - Azure infrastructure consists of data centers, regions, availability zones, resource groups, virtual machines, and networking services, 
      providing the foundation for deploying and managing cloud-based applications and services.
