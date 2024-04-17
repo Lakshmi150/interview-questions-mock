@@ -131,7 +131,28 @@ container storage:
    - Replica Sets and Replica Controllers are Kubernetes resources for ensuring high availability and scalability of pods.
    - Replica Sets maintain a specified number of identical pods to ensure availability, manage scaling, and handle pod failures.
    - Replica Controllers are the older version of Replica Sets
-- 
+- **Explain Terraform Stages**
+  - Terraform stages are divisions within a configuration that organize infrastructure provisioning steps, typically representing different 
+    environments such as development, testing, staging, and production.
+- **Define Helm Charts and Helm Space**
+  - Helm Charts: Packages for defining and managing Kubernetes applications.
+  - Helm Space": This term doesn't have a widely recognized meaning in 
+                  the context of Helm.
+- **Explains Modules**
+  - Modules are like building blocks in programming. They're pieces of code that perform specific tasks or functions. You can use them to 
+     organize your code, make it easier to understand, and reuse code across different parts of your project.
+- **Define Availability Sets**
+  - Availability Sets are a feature in Microsoft Azure that ensure high availability of virtual machines (VMs) by distributing them across 
+   multiple physical servers within a datacenter. This helps to minimize the impact of hardware failures and planned maintenance events, 
+    ensuring that at least one VM remains available even if others are affected.
+- **Explain Azure Key Vault**
+  - Azure Key Vault: Microsoft Azure service for securely storing and managing sensitive information like keys, passwords, and certificates.
+- **Define Steady State File**
+  - A steady state file typically refers to a file or data snapshot that represents a system or process in a stable condition without 
+   significant changes over time. It serves as a reference point for comparison or analysis, often used in fields such as engineering, 
+    economics, or computer science to assess system performance, behavior, or equilibrium.
+- **Define Pod Scaling**
+  - Pod scaling adjusts the number of pod instances in Kubernetes for optimal performance and resource utilization.
 
 
 
