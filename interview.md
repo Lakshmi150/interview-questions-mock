@@ -25,8 +25,8 @@
     environments such as development, testing, staging, and production.
 - **Define Helm Charts and Helm Space**
   - Helm Charts: Packages for defining and managing Kubernetes applications.
-  - Helm Space": This term doesn't have a widely recognized meaning in 
-                  the context of Helm.
+  - Helm Space":  commonly used in DevOps practices for deploying, managing, and scaling 
+                containerized applications on Kubernetes clusters
 - **Explains Modules**
   - Modules are like building blocks in programming. They're pieces of code that perform specific tasks or functions. You can use them to 
      organize your code, make it easier to understand, and reuse code across different parts of your project.
