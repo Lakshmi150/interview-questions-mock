@@ -19,7 +19,11 @@
 - **Define Cluster IP**
   - Cluster IP is an internal IP address assigned to a Kubernetes service, enabling communication between different parts of an application 
     within the Kubernetes cluster. It allows for inter-service communication while abstracting the underlying network details.
-------------------------------
+- **Explain Service Connection**
+  - A service connection is a configuration in DevOps pipelines that allows secure access to 
+    external services like Azure, AWS, or GitHub. It enables pipelines to interact with these 
+    services, such as deploying applications, fetching dependencies, or accessing resources, 
+    while maintaining security and authentication.
 - **Explain Terraform Stages**
   - Terraform stages are divisions within a configuration that organize infrastructure provisioning steps, typically representing different 
     environments such as development, testing, staging, and production.
