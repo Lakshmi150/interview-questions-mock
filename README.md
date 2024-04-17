@@ -13,26 +13,19 @@
     through Azure Site Recovery and Backup solutions.
 - **What are the components of Kubernates?**
   - `Master Node Components`:
-    kube-apiserver: Exposes the Kubernetes API. All operations and communications within the cluster are handled through this component.
+    apiserver: Exposes the Kubernetes API. All operations and communications within the cluster are handled through this component.
     etcd: A distributed key-value store that stores the cluster's state. It's the backing store for all Kubernetes data.
-    kube-scheduler: Assigns newly created pods to nodes based on resource availability and other constraints.
-    kube-controller-manager: Runs controller processes which regulate the state of the cluster, such as nodes, replication controllers, 
+    scheduler: Assigns newly created pods to nodes based on resource availability and other constraints.
+    controller-manager: Runs controller processes which regulate the state of the cluster, such as nodes, replication controllers, 
     endpoints.
    - `Node Components`:
-    kubelet: An agent that runs on each node and ensures containers are running in a pod as expected. It interacts with the Kubernetes API server 
-             and manages containers through container runtimes (e.g., Docker, containerd).
+    kubelet: An agent that runs on each node and ensures containers are running in a pod as expected. It interacts with the Kubernetes API 
+           server and manages containers through container runtimes (e.g., Docker, containerd).
     kube-proxy: Maintains network rules and performs request forwarding. It runs on each node and manages communication between pods and other 
                  networked resources.
-   - `Add-ons`:
-  DNS: Provides DNS-based service discovery for Kubernetes services.
-  Ingress Controller: Manages external access to services within a Kubernetes cluster, typically through HTTP and HTTPS.
-  Dashboard: A web-based user interface for managing and monitoring Kubernetes clusters.
-  Storage Plugins: Integrations with various storage solutions, allowing Kubernetes to manage persistent storage volumes.
-    - `Networking`:
-  Pod Networking: Kubernetes uses a flat networking model where every pod can communicate with every other pod in the cluster without NAT. 
-  Various networking solutions such as Calico, Flannel, and Weave provide this functionality.
-  Service Networking: Enables communication between different parts of an application by exposing a stable IP address and DNS name for a set of 
-  pods.
+   Pod Networking: Kubernetes uses a flat networking model where every pod can communicate with every other pod in the cluster without NAT
+container storage:
+  
 - **How to achive High Availabiity of Cluster**
   - Deploy Kubernetes across multiple nodes.
   - Configure a highly available control plane.
@@ -65,7 +58,8 @@
      environment. It's used for automating repetitive tasks, system administration, and customizing system behavior.
 - **Explain partitining in devops**
   - Partitioning in DevOps refers to the practice of dividing resources, systems, or workloads into smaller, manageable segments to improve 
-    organization, efficiency, and isolation. It involves separating infrastructure, networks, applications, data, and workloads based on specific 
+    organization, efficiency, and isolation. It involves separating infrastructure, networks, applications, data, and workloads based on specific
+    
      criteria such as function, team, or environment to streamline operations and enhance scalability, security, and reliability.
 - **explain head start command**
   - a "head start" command could be a script or container entry point that performs initialization tasks, such as setting up configuration files, 
@@ -123,4 +117,32 @@
 - **Define Cluster IP**
   - Cluster IP is an internal IP address assigned to a Kubernetes service, enabling communication between different parts of an application 
     within the Kubernetes cluster. It allows for inter-service communication while abstracting the underlying network details.
+- **Explain Ingress Controller**
+   - An Ingress Controller manages external access to services in Kubernetes, routing traffic based on user-defined rules for load balancing and 
+     SSL/TLS termination
+- **Explain Blue Green Deployment Strategy**     
+   -Blue-Green Deployment is a strategy in software development where you have two identical production environments, one active (blue) and the 
+    other inactive (green). You gradually shift traffic from the blue environment to the green one after deploying updates or changes
+- **Explain Dynatrace and CTL**
+  - Dynatrace is an APM tool for monitoring application performance, offering real-time insights and automated problem resolution. CTL often 
+    refers to Container Tools Library, encompassing tools like Docker and Kubernetes for container management.
+- **Explain Docker Daemon, Docker Kill command, Docker Layer**
+- **Explain Replica Sets and Replica Controller**
+   - Replica Sets and Replica Controllers are Kubernetes resources for ensuring high availability and scalability of pods.
+   - Replica Sets maintain a specified number of identical pods to ensure availability, manage scaling, and handle pod failures.
+   - Replica Controllers are the older version of Replica Sets
 - 
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
