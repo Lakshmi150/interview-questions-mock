@@ -50,6 +50,12 @@
    - Replica Sets and Replica Controllers are Kubernetes resources for ensuring high availability and scalability of pods.
    - Replica Sets maintain a specified number of identical pods to ensure availability, manage scaling, and handle pod failures.
    - Replica Controllers are the older version of Replica Sets
+- **Explain Docker Daemon, Docker Kill command, Docker Layer**
+   - Docker objects such as images, containers, networks, and volumes. A daemon can also 
+   communicate with other daemons to manage Docker services.
+   - Docker Kill command: It stops a running Docker container abruptly.
+   - Docker Layer: It's a part of Docker's efficient image-building system, allowing changes to 
+    be cached and reused to speed up image creation and deployment.
 - **Explain Ingress Controller**
    - An Ingress Controller manages external access to services in Kubernetes, routing traffic based on user-defined rules for load balancing and 
      SSL/TLS termination
